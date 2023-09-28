@@ -1,0 +1,240 @@
+{
+    "bikel1": {
+        "avg_time": 2.426185369491577,
+        "avg_client_packets": 13.6,
+        "avg_client_bytes": 2987.0,
+        "avg_server_packets": 11.6,
+        "avg_server_bytes": 12304.6
+    },
+    "bikel3": {
+        "avg_time": 2.20908899307251,
+        "avg_client_packets": 14.4,
+        "avg_client_bytes": 4584.2,
+        "avg_server_packets": 12.6,
+        "avg_server_bytes": 13912.6
+    },
+    "p256_bikel1": {
+        "avg_time": 2.1620707511901855,
+        "avg_client_packets": 13.6,
+        "avg_client_bytes": 3052.0,
+        "avg_server_packets": 12.0,
+        "avg_server_bytes": 12396.0
+    },
+    "p384_bikel3": {
+        "avg_time": 2.5440455436706544,
+        "avg_client_packets": 15.0,
+        "avg_client_bytes": 4716.0,
+        "avg_server_packets": 12.4,
+        "avg_server_bytes": 13996.4
+    },
+    "kyber512": {
+        "avg_time": 2.6847171783447266,
+        "avg_client_packets": 12.6,
+        "avg_client_bytes": 2180.0,
+        "avg_server_packets": 11.0,
+        "avg_server_bytes": 11460.0
+    },
+    "kyber768": {
+        "avg_time": 3.3662062644958497,
+        "avg_client_packets": 12.2,
+        "avg_client_bytes": 2537.6,
+        "avg_server_packets": 10.4,
+        "avg_server_bytes": 11740.4
+    },
+    "kyber1024": {
+        "avg_time": 2.7831752777099608,
+        "avg_client_packets": 12.0,
+        "avg_client_bytes": 2908.4,
+        "avg_server_packets": 10.0,
+        "avg_server_bytes": 12194.0
+    },
+    "kyber90s512": {
+        "avg_time": 2.68011736869812,
+        "avg_client_packets": 11.8,
+        "avg_client_bytes": 2124.8,
+        "avg_server_packets": 9.6,
+        "avg_server_bytes": 11367.6
+    },
+    "kyber90s768": {
+        "avg_time": 2.92326340675354,
+        "avg_client_packets": 12.2,
+        "avg_client_bytes": 2535.2,
+        "avg_server_packets": 10.2,
+        "avg_server_bytes": 11727.2
+    },
+    "kyber90s1024": {
+        "avg_time": 2.7986168384552004,
+        "avg_client_packets": 12.0,
+        "avg_client_bytes": 2906.0,
+        "avg_server_packets": 10.0,
+        "avg_server_bytes": 12194.0
+    },
+    "p256_kyber512": {
+        "avg_time": 2.6601967334747316,
+        "avg_client_packets": 12.4,
+        "avg_client_bytes": 2231.8,
+        "avg_server_packets": 10.6,
+        "avg_server_bytes": 11501.0
+    },
+    "p384_kyber768": {
+        "avg_time": 2.652644681930542,
+        "avg_client_packets": 10.6,
+        "avg_client_bytes": 2162.8,
+        "avg_server_packets": 8.8,
+        "avg_server_bytes": 9499.2
+    },
+    "p521_kyber1024": {
+        "avg_time": 2.6353806018829347,
+        "avg_client_packets": 14.0,
+        "avg_client_bytes": 3171.0,
+        "avg_server_packets": 11.8,
+        "avg_server_bytes": 12445.8
+    },
+    "p256_kyber90s512": {
+        "avg_time": 2.47452449798584,
+        "avg_client_packets": 11.4,
+        "avg_client_bytes": 2170.6,
+        "avg_server_packets": 10.2,
+        "avg_server_bytes": 11472.2
+    },
+    "p384_kyber90s768": {
+        "avg_time": 2.13321738243103,
+        "avg_client_packets": 12.2,
+        "avg_client_bytes": 2637.0,
+        "avg_server_packets": 10.4,
+        "avg_server_bytes": 11837.4
+    },
+    "p521_kyber90s1024": {
+        "avg_time": 2.703977584838867,
+        "avg_client_packets": 14.0,
+        "avg_client_bytes": 3171.0,
+        "avg_server_packets": 11.4,
+        "avg_server_bytes": 12419.4
+    },
+    "frodo640aes": {
+        "avg_time": 2.2541603565216066,
+        "avg_client_packets": 17.0,
+        "avg_client_bytes": 11284.0,
+        "avg_server_packets": 14.8,
+        "avg_server_bytes": 20662.8
+    },
+    "frodo640shake": {
+        "avg_time": 2.260431146621704,
+        "avg_client_packets": 16.6,
+        "avg_client_bytes": 11260.0,
+        "avg_server_packets": 15.0,
+        "avg_server_bytes": 20676.0
+    },
+    "frodo976aes": {
+        "avg_time": 2.228315496444702,
+        "avg_client_packets": 20.8,
+        "avg_client_bytes": 17550.8,
+        "avg_server_packets": 18.0,
+        "avg_server_bytes": 26898.0
+    },
+    "frodo976shake": {
+        "avg_time": 2.824165678024292,
+        "avg_client_packets": 16.6,
+        "avg_client_bytes": 14038.0,
+        "avg_server_packets": 15.0,
+        "avg_server_bytes": 21558.0
+    },
+    "frodo1344aes": {
+        "avg_time": 2.598760747909546,
+        "avg_client_packets": 6.8,
+        "avg_client_bytes": 22327.8,
+        "avg_server_packets": 6.6,
+        "avg_server_bytes": 443.6
+    },
+    "frodo1344shake": {
+        "avg_time": 2.6058321475982664,
+        "avg_client_packets": 18.0,
+        "avg_client_bytes": 18844.8,
+        "avg_server_packets": 16.8,
+        "avg_server_bytes": 26391.2
+    },
+    "p256_frodo640aes": {
+        "avg_time": 2.3214563369750976,
+        "avg_client_packets": 17.6,
+        "avg_client_bytes": 11391.0,
+        "avg_server_packets": 15.8,
+        "avg_server_bytes": 20793.8
+    },
+    "p256_frodo640shake": {
+        "avg_time": 2.285219144821167,
+        "avg_client_packets": 17.0,
+        "avg_client_bytes": 11351.4,
+        "avg_server_packets": 15.2,
+        "avg_server_bytes": 20756.6
+    },
+    "p384_frodo976aes": {
+        "avg_time": 2.3456228256225584,
+        "avg_client_packets": 21.2,
+        "avg_client_bytes": 17676.6,
+        "avg_server_packets": 19.6,
+        "avg_server_bytes": 27103.0
+    },
+    "p384_frodo976shake": {
+        "avg_time": 2.475601816177368,
+        "avg_client_packets": 20.8,
+        "avg_client_bytes": 17647.8,
+        "avg_server_packets": 18.8,
+        "avg_server_bytes": 27047.8
+    },
+    "p521_frodo1344aes": {
+        "avg_time": 2.368698835372925,
+        "avg_client_packets": 7.2,
+        "avg_client_bytes": 22487.2,
+        "avg_server_packets": 7.0,
+        "avg_server_bytes": 470.0
+    },
+    "p521_frodo1344shake": {
+        "avg_time": 2.8969141006469727,
+        "avg_client_packets": 19.6,
+        "avg_client_bytes": 19059.2,
+        "avg_server_packets": 18.2,
+        "avg_server_bytes": 26590.0
+    },
+    "hqc128": {
+        "avg_time": 2.3197144985198976,
+        "avg_client_packets": 10.4,
+        "avg_client_bytes": 2922.4,
+        "avg_server_packets": 8.4,
+        "avg_server_bytes": 12112.0
+    },
+    "hqc192": {
+        "avg_time": 2.8083126068115236,
+        "avg_client_packets": 14.0,
+        "avg_client_bytes": 5996.8,
+        "avg_server_packets": 12.4,
+        "avg_server_bytes": 19810.4
+    },
+    "hqc256": {
+        "avg_time": 2.9783113956451417,
+        "avg_client_packets": 5.4,
+        "avg_client_bytes": 7953.0,
+        "avg_server_packets": 5.2,
+        "avg_server_bytes": 351.2
+    },
+    "p256_hqc128": {
+        "avg_time": 3.117622137069702,
+        "avg_client_packets": 13.4,
+        "avg_client_bytes": 3744.4,
+        "avg_server_packets": 11.2,
+        "avg_server_bytes": 15251.2
+    },
+    "p384_hqc192": {
+        "avg_time": 3.0018797874450684,
+        "avg_client_packets": 16.0,
+        "avg_client_bytes": 6221.0,
+        "avg_server_packets": 14.0,
+        "avg_server_bytes": 20013.0
+    },
+    "p521_hqc256": {
+        "avg_time": 2.81809139251709,
+        "avg_client_packets": 5.0,
+        "avg_client_bytes": 8062.0,
+        "avg_server_packets": 5.0,
+        "avg_server_bytes": 338.0
+    }
+}

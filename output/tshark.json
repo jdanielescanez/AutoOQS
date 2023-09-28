@@ -1,0 +1,245 @@
+[
+  {
+    "number": 1,
+    "time": 0.0,
+    "source": "fe80::42:dbff:fe81:cdde",
+    "destination": "ff02::16",
+    "protocol": "ICMPv6",
+    "length": 130,
+    "info": "Multicast Listener Report Message v2"
+  },
+  {
+    "number": 2,
+    "time": 0.914808391,
+    "source": "fe80::42:dbff:fe81:cdde",
+    "destination": "ff02::16",
+    "protocol": "ICMPv6",
+    "length": 130,
+    "info": "Multicast Listener Report Message v2"
+  },
+  {
+    "number": 3,
+    "time": 1.396171232,
+    "source": "02:42:ac:12:00:03",
+    "destination": "Broadcast",
+    "protocol": "ARP",
+    "length": 42,
+    "info": "Who has 172.18.0.2? Tell 172.18.0.3"
+  },
+  {
+    "number": 4,
+    "time": 1.396222956,
+    "source": "02:42:ac:12:00:02",
+    "destination": "02:42:ac:12:00:03",
+    "protocol": "ARP",
+    "length": 42,
+    "info": "172.18.0.2 is at 02:42:ac:12:00:02"
+  },
+  {
+    "number": 5,
+    "time": 1.396272459,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 74,
+    "info": "42436 → 4433 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=3190809323 TSecr=0 WS=128"
+  },
+  {
+    "number": 6,
+    "time": 1.396309202,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TCP",
+    "length": 74,
+    "info": "4433 → 42436 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM=1 TSval=2507236401 TSecr=3190809323 WS=128"
+  },
+  {
+    "number": 7,
+    "time": 1.396338139,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=3190809323 TSecr=2507236401"
+  },
+  {
+    "number": 8,
+    "time": 1.443232858,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TLSv1",
+    "length": 1953,
+    "info": "Client Hello"
+  },
+  {
+    "number": 9,
+    "time": 1.444422196,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "4433 → 42436 [ACK] Seq=1 Ack=1888 Win=64000 Len=0 TSval=2507236448 TSecr=3190809370"
+  },
+  {
+    "number": 10,
+    "time": 1.44871472,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 2962,
+    "info": "Server Hello, Change Cipher Spec, Application Data"
+  },
+  {
+    "number": 11,
+    "time": 1.448945641,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=1888 Ack=2897 Win=63488 Len=0 TSval=3190809375 TSecr=2507236453"
+  },
+  {
+    "number": 12,
+    "time": 1.448972465,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TCP",
+    "length": 1266,
+    "info": "4433 → 42436 [PSH, ACK] Seq=2897 Ack=1888 Win=64128 Len=1200 TSval=2507236453 TSecr=3190809370 [TCP segment of a reassembled PDU]"
+  },
+  {
+    "number": 13,
+    "time": 1.448991483,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=1888 Ack=4097 Win=62336 Len=0 TSval=3190809376 TSecr=2507236453"
+  },
+  {
+    "number": 14,
+    "time": 1.450698882,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 4162,
+    "info": "Application Data [TCP segment of a reassembled PDU]"
+  },
+  {
+    "number": 15,
+    "time": 1.450714188,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=1888 Ack=8193 Win=60160 Len=0 TSval=3190809377 TSecr=2507236455"
+  },
+  {
+    "number": 16,
+    "time": 1.450841359,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 2468,
+    "info": "Application Data, Application Data"
+  },
+  {
+    "number": 17,
+    "time": 1.450854072,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=1888 Ack=10595 Win=59008 Len=0 TSval=3190809377 TSecr=2507236455"
+  },
+  {
+    "number": 18,
+    "time": 1.477578988,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TLSv1.3",
+    "length": 146,
+    "info": "Change Cipher Spec, Application Data"
+  },
+  {
+    "number": 19,
+    "time": 1.479332862,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TLSv1.3",
+    "length": 166,
+    "info": "Application Data"
+  },
+  {
+    "number": 20,
+    "time": 1.479730513,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 369,
+    "info": "Application Data"
+  },
+  {
+    "number": 21,
+    "time": 1.480169241,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 369,
+    "info": "Application Data"
+  },
+  {
+    "number": 22,
+    "time": 1.480629466,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [ACK] Seq=2068 Ack=11201 Win=64128 Len=0 TSval=3190809407 TSecr=2507236484"
+  },
+  {
+    "number": 23,
+    "time": 1.481552826,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 373,
+    "info": "Application Data"
+  },
+  {
+    "number": 24,
+    "time": 1.48309494,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TLSv1.3",
+    "length": 90,
+    "info": "Application Data"
+  },
+  {
+    "number": 25,
+    "time": 1.485640728,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TLSv1.3",
+    "length": 90,
+    "info": "Application Data"
+  },
+  {
+    "number": 26,
+    "time": 1.4857775,
+    "source": "172.18.0.2",
+    "destination": "172.18.0.3",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "4433 → 42436 [FIN, ACK] Seq=11532 Ack=2092 Win=64128 Len=0 TSval=2507236490 TSecr=3190809410"
+  },
+  {
+    "number": 27,
+    "time": 1.486104117,
+    "source": "172.18.0.3",
+    "destination": "172.18.0.2",
+    "protocol": "TCP",
+    "length": 66,
+    "info": "42436 → 4433 [RST, ACK] Seq=2092 Ack=11533 Win=64128 Len=0 TSval=3190809413 TSecr=2507236490"
+  }
+]
