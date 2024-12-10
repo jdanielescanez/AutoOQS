@@ -9,7 +9,7 @@ import argparse
 import json
 from argparse import RawTextHelpFormatter
 
-REPETITIONS = 10
+REPETITIONS = 20
 total_results = {}
 
 for curve in CURVES:

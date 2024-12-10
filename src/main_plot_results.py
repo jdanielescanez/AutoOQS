@@ -9,7 +9,7 @@ with open(json_path, 'r', encoding='utf-8') as results_file:
     results = json.load(results_file)
 
 total_tags = list(results.keys())
-algorithms = {'kyber': [], 'bike': [], 'frodo': [], 'hqc': []}
+algorithms = {'kyber': [], 'mlkem': []} # 'bike': [], 'frodo': [], 'hqc': []
 for algorithm_tag in algorithms.keys():
     algorithms[algorithm_tag] = [x for x in total_tags if algorithm_tag in x]
 

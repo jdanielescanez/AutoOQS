@@ -10,7 +10,7 @@ class Curl(Client):
   def run(self):
     super().run()
 
-    subprocess.run(['sudo', 'docker', 'run', '--network', 'httpd-test', '-it', 'openquantumsafe/curl', 'curl', '-k', 'https://oqs-httpd:4433', '--curve', self.curve],
+    subprocess.run(['sudo', 'docker', 'run', '--network', 'httpd-test', '-it', 'openquantumsafe/curl', 'curl', '-k', 'https://oqs-httpd:4433', '--curves', self.curve],
                    shell=False, stdout=self.output_file, stderr=subprocess.DEVNULL)
     
     super().stop()

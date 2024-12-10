@@ -31,7 +31,7 @@ class Experiment():
         self.server.run()
 
         if self.isTshark():
-            self.tshark.listen(3)
+            self.tshark.listen(5)
 
         time.sleep(1)
         pre_client = time.time()
@@ -68,23 +68,26 @@ class Experiment():
         client_lengths = []
         server_lengths = []
         for line_arr in results_arr:
-            data = {
-                'number': int(line_arr[0]),
-                'time': float(line_arr[1]),
-                'source': line_arr[2].strip(),
-                'destination': line_arr[4].strip(),
-                'protocol': line_arr[5],
-                'length': int(line_arr[6]),
-                'info': line_arr[7]
-            }
-            self.results['json_packets'].append(data)
-            is_all_data = all(['Application Data' == x for x in data['info'].split(', ')])
+            try:
+                data = {
+                    'number': int(line_arr[0]),
+                    'time': float(line_arr[1]),
+                    'source': line_arr[2].strip(),
+                    'destination': line_arr[4].strip(),
+                    'protocol': line_arr[5],
+                    'length': int(line_arr[6]),
+                    'info': line_arr[7]
+                }
+                self.results['json_packets'].append(data)
+                is_all_data = all(['Application Data' == x for x in data['info'].split(', ')])
 
-            if not is_all_data:
-                if data['source'] == '172.18.0.3':
-                    client_lengths.append(data['length'])
-                elif data['source'] == '172.18.0.2':
-                    server_lengths.append(data['length'])
+                if not is_all_data:
+                    if data['source'] == '172.18.0.3':
+                        client_lengths.append(data['length'])
+                    elif data['source'] == '172.18.0.2':
+                        server_lengths.append(data['length'])
+            except:
+                continue
         
         self.results['client_packets'] = len(client_lengths)
         self.results['client_bytes'] = sum(client_lengths)

@@ -11,6 +11,9 @@ sudo apt -y install wireshark
 ## Debe añadirse el usuario que desee utilizar el programa al grupo Wireshark
 sudo usermod -aG wireshark $USER
 
+# Tshark
+sudo apt-get install tshark
+
 # Docker
 ## Instalación previa
 sudo apt-get -y install ca-certificates curl gnupg lsb-release
